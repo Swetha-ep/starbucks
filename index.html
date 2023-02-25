@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="assets/images/logo.svg" rel="icon">
+    <title>Starbucks Coffee Company</title>
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand pt-4" href="#"><img src="assets/images/logo.svg"></a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="bb collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active pt-4" aria-current="page" href="https://www.starbucks.com/menu"><strong>MENU</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-4" href="https://www.starbucks.com/rewards"><strong> REWARDS</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-4 " href="https://www.starbucks.com/gift"><strong>GIFT CARDS</strong></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active pt-4" aria-current="page" href="https://www.starbucks.com/store-locator?map=39.635307,-101.337891,5z"><img src="assets/images/loc.svg"><strong> Find a store</strong></a>
+          </li>
+          <li class="navbar bg-body-tertiary pt-3">
+            <button onclick="signin()" type="button" class="btn btn-light"><strong> Sign in</strong></button>
+            <button onclick="join()" type="button" class="btn btn-dark"><strong>Join now</strong></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <hr>
+</header>
+
+
+<main>
+
+  <section class="section-1 ">
+    <div class="container-fluid mt-4">
+      <div class="row">
+
+        <div class="col-md-6">
+          <div class="sofa">
+            <img src="assets/images/sofa.webp" alt="Couples in sofa">
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="panel text-left pt-4 pb-5 px-4">
+            <h3>A new way to earn sips and trips</h3>
+            <p class="pt-4">Now you can link your Starbucks® Rewards + Delta <br>SkyMiles® accounts to get:</p>
+            <ul class="pt-3">
+              <li>Double Stars on Delta travel days</li>
+              <li>1 mile per $1 spent at Starbucks (excludes taxes and<br> gratuities)*</li>
+            </ul>
+            <button onclick="accounts()" type="button" class="btn btn-light mt-4"><strong>Link accounts</strong></button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section-2">
+    <div class="container-fluid mt-4">
+      <div class="row">
+
+        <div class="col-md-6 order-sm-2">
+          <div class="brew">
+            <img src="assets/images/brew.webp" alt="Coffee brew">
+          </div>
+        </div>
+      
+        <div class="col-md-6 text-light order-sm-1">
+          <div class="panel text-center pt-5 mt-5 pb-5" >
+            <h1 >New year, cool new <br>brew</h1><br>
+            <p>Introducing Pistachio Cream Cold Brew—<br>bold, smooth coffee topped with pistachio <br>cream cold foam.</p>
+            <button onclick="tryit()" type="button" class="btn btn-light mt-4"><strong>Try it now</strong></button>
+          </div>
+        </div>
+
+        
+
+      </div>
+    </div>
+  </section>
+  
+  <section class="section-3">
+    <div class="container-fluid mt-4">
+      <div class="row">
+
+        <div class="col-md-6">
+          <div class="pistachio">
+            <img src="assets/images/pistachio.webp" alt="Pistachio">
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="panel text-center pt-5 mt-5 pb-5">
+            <h3>Long walks with pistachio</h3>
+            <p class="pt-4">Keep it cozy with a Pistachio Latte finished with <br>a brown-buttery topping.</p>
+            <button onclick="order()" type="button" class="btn btn-light mt-4"><strong>Order now</strong></button>
+        
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section-4">
+    <div class="container-fluid mt-4">
+      <div class="row">
+
+        <div class="col-md-6 order-sm-2">
+          <div class="wrap">
+            <img src="assets/images/wrap.jpg" alt="Wrap">
+          </div>
+        </div>
+
+        <div class="col-md-6 text-light order-sm-1">
+          <div class="panel text-center pt-5 mt-5 pb-5" >
+            <h1 >Wrap your day</h1><br>
+            <p>Savory ingredients come together in our<br> Bacon, Sausage & Egg Wrap for a satisfying<br> meal on the go.</p>
+            <button onclick="now()" type="button" class="btn btn-light mt-4"><strong>Order now</strong></button>
+            
+          </div>
+        </div>
+
+       
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section 5">
+    <div class="container my-5 text-center">
+        
+          <p class="text-center ">*Excludes taxes and gratuities. At participating stores. Some restrictions apply. Flights purchased close to departure may not earn double Stars. Stars and miles may not be earned on purchases of alcohol, Starbucks Cards and Starbucks Card reloads. For details, visit
+          <a class="linkk" href="https://www.deltastarbucks.com/content/starbucks/en/terms-and-conditions.html">http://deltastarbucks.com/terms</a></p>
+
+    </div>
+      
+  </section>
+  <hr>
+
+</main>
+
+<footer class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      
+      <div class="footer-col col-lg-2 pb-3">
+        
+          <ul class="container-fluid">
+          <strong>About Us</strong>
+          <li><a href="https://www.starbucks.com/about-us/">Our Company</a></li>
+          <li><a href="https://www.starbucks.com/coffee/">Our Coffee</a></li>
+          <li><a href="https://stories.starbucks.com/">Stories and News</a></li>
+          <li><a href="https://archive.starbucks.com/">Starbucks Archive</a></li>
+          <li><a href="https://investor.starbucks.com/ir-home/default.aspx">Investor Relations</a></li>
+          <li><a href="https://customerservice.starbucks.com/">Customer Service</a></li>
+        </ul>
+      </div>
+      <div class="footer-col col-lg-2 pb-3">
+        
+          <ul class="container-fluid">
+          <strong>Careers</strong>
+          <li><a href="https://www.starbucks.com/careers/working-at-starbucks/culture-and-values/">Culture and Values</a></li>
+          <li><a href="https://stories.starbucks.com/stories/inclusion-diversity/">Inclusion,Diversity, and<br> Equity</a></li>
+          <li><a href="https://www.starbucks.com/careers/working-at-starbucks/education/">College Achievement<br> Plan</a></li>
+          <li><a href="https://alumni.starbucks.com/login/">Alumni Community</a></li>
+          <li><a href="https://www.starbucks.com/careers/">U.S. Careers</a></li>
+          <li><a href="https://www.starbucks.com/careers/international-careers/">International Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col col-lg-2 pb-3">
+        
+          
+          <ul class="container-fluid">
+          <strong>Social Impact</strong>
+          <li><a href="https://www.starbucks.com/responsibility/people/">People</a></li>
+          <li><a href="https://www.starbucks.com/responsibility/planet/">Planet</a></li>
+          <li><a href="https://www.starbucks.com/responsibility/reporting-hub/">Environmental and Social<br>Impact Reporting</a></li>
+        </ul>
+      </div>
+      <div class="footer-col col-lg-2 pb-3">
+        
+        
+          
+          <ul class="container-fluid">
+          <strong>For Business Partners</strong>
+          <li><a href="https://www.starbucks.com/business/landlord-faq/">Landlord Support Center</a></li>
+          <li><a href="https://www.starbucks.com/business/suppliers/">Suppliers</a></li>
+          <li><a href="https://www.starbuckscardb2b.com/s/">Corporate Gift Card Sales</a></li>
+          <li><a href="https://www.nestlecoffeepartnerssl.com/our-brands/we-proudly-serve-starbucks-coffee-program">Office and Foodservice<br> Coffee</a></li>
+        </ul>
+      </div>
+      <div class="footer-col col-lg-4 pb-3">
+          <ul class="container-fluid">
+          <strong>Order and Pickup</strong>
+          <li><a href="https://www.starbucks.com/rewards/mobile-apps/">Order on the App</a></li>
+          <li><a href="https://www.starbucks.com/menu">Order on the Web</a></li>
+          <li><a href="https://www.starbucks.com/ways-to-order/delivery/">Delivery</a></li>
+          <li><a href="https://www.starbucks.com/ways-to-order/">Order and Pickup<br> options</a></li>
+          <li><a href="https://athome.starbucks.com/?utm_source=starbucks.com&utm_medium=referral&utm_campaign=footer">Explore and Find Coffee<br> for Home</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  
+  <hr>
+  <div class="social">
+    <a href="https://open.spotify.com/user/starbucks"><img src="assets/images/spotify.svg"></a>
+    <a href="https://www.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Ffacebook.com%2Fstarbucks"><img src="assets/images/facebook.svg"></a>
+    <a href="https://www.pinterest.com/starbucks/"><img src="assets/images/pinterest.svg"></a>
+    <a href="https://www.instagram.com/starbucks/"><img src="assets/images/instagram.svg"></a>
+    <a href="https://www.youtube.com/starbucks"><img src="assets/images/youtube.svg"></a>
+    <a href="https://twitter.com/starbucks/"><img src="assets/images/twitter.svg"></a>
+  </div><br>
+  <div class="lg">
+  <ul class="list">
+    <li class="pb-2">
+      <a href="https://www.starbucks.com/terms/privacy-policy/">Privacy Notice</a>
+    </li>
+    <li class="ab">|</li>
+    <li class="pb-2">
+      <a href="https://www.starbucks.com/terms/starbucks-terms-of-use/">Terms of Use</a>
+    </li>
+    <li class="ab">|</li>
+    <li class="pb-2">
+      <a href="https://www.starbucks.com/personal-information">Do Not Share My Personal Information</a>
+    </li>
+    <li class="ab">|</li>
+    <li class="pb-2">
+      <a href="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-70076.pdf">CA Supply Chain Act</a>
+    </li>
+    <li class="ab">|</li>
+    <li class="pb-2">
+      <a href="#">Cookie Preferences</a>
+    </li>
+  </ul><br>
+  </div>
+  <p class="copyright">
+    © 2023 Starbucks Coffee Company. All rights reserved.
+  </p>
+
+</footer>
+<script>
+
+function signin(){
+      window.location.href="https://www.starbucks.com/account/signin?returnUrl=https%3A%2F%2Fwww.starbucks.com%2Fgift"
+}
+
+function signin(){
+      window.location.href="https://www.starbucks.com/account/create"
+}
+
+function accounts(){
+      window.location.href="https://www.deltastarbucks.com/content/starbucks/en/overview.html?mkcpgn=dipd-sbux7025"
+}
+
+function tryit(){
+      window.location.href="https://www.starbucks.com/menu/product/2123702/iced"
+}
+
+function order(){
+      window.location.href="https://www.starbucks.com/account/signin?returnUrl=https%3A%2F%2Fwww.starbucks.com%2Fgift"
+}
+
+function now(){
+      window.location.href="https://www.starbucks.com/menu/product/2123181/single"
+}
+
+
+
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="/js/bootstrap.js">
+</script>
+</body>
+</html>

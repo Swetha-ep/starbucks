@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+
+.navbar-brand img{
+    width:50px;
+}
+
+.nav-item img{
+    width:25px;
+}
+.navbar-nav li{
+    font-family:Arial, Helvetica, sans-serif!important;
+    font-size: medium;
+    
+}
+.navbar-nav a{
+    color:black
+    
+}
+.navbar-nav a:hover{
+    color:#006241;
+}
+body{
+    font-size: larger;
+}
+
+.bb button{
+    border-radius: 19px;
+    border-color: black;
+}
+
+.sofa img{
+    width:100%;
+}
+.section-1 {
+    background-color: #d4e9e2;
+    
+}
+.section-1 button{
+    background-color:#d4e9e2 ;
+    border-color: black;
+    border-radius: 19px;
+}
+.brew img{
+    width:100%;
+}
+.section-2{
+    background-color: #3d7170;
+    
+}
+.section-2 button{
+    background-color:#3d7170 ;
+    border-color:white;
+    border-radius: 19px;
+    color:white;
+}
+.text-center{
+    text-align: center;
+}
+.pistachio img{
+    width:100%;
+}
+.section-3{
+    background-color: #f4c5a1;
+}
+.section-3 button{
+    background-color: #f4c5a1;
+    border-color:black;
+    border-radius: 19px;
+}
+.wrap img{
+    width:100%;
+}
+.section-4{
+    background-color: #8b323e;
+}
+.section-4 button{
+    background-color: #8b323e;
+    border-color:white;
+    border-radius: 19px;
+    color:white;
+}
+.linkk {
+    color:black !important;
+    text-decoration: underline;
+}
+.linkk:hover {
+    text-decoration: none !important;
+}
+.footer ul li{
+    list-style-type:none;
+}
+.row ul{
+    padding-left: 2em;
+}
+.row a{
+    color:#73847e!important
+    
+}
+.footer a:hover{
+    text-decoration: none;
+    color: black!important
+    
+    
+}
+.social img{
+    width: 2rem;
+}
+.footer .social a{
+    margin:0 8px;
+}
+.list{
+    margin: top 0;
+    padding:0;
+    list-style-type: none;
+    margin-bottom:0;
+    
+}
+
+.list a{
+    color:black;
+}
+.copyright{
+    color:#73847e;
+} 
+
+  @media(min-width: 1024px) {
+    .list li{
+      display:inline-block;
+      padding: 0 10px;
+      
+    }
+  }
+
+  @media(max-width: 1200px) {
+    .ab {
+      display: none;
+      
+    }
+  }
+ .footer-col li{
+    padding-bottom: 8px;
+ }  
+
+
+
+
+
+
+
+
+
